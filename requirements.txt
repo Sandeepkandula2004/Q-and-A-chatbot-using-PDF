@@ -1,14 +1,14 @@
 streamlit
 python-dotenv
-langchain
-langchain_core
-langchain_community
-langchain_chroma
-langchain_huggingface
+langchain>=0.1.14
+langchain-core
+langchain-community>=0.0.8
+langchain-chroma
+langchain-huggingface
 langchain-groq
 chromadb
-huggingface_hub
-sentence_transformers
+huggingface-hub
+sentence-transformers
 PyPDF2
 tqdm
-pydantic<2  # LangChain often uses pydantic v1
+pydantic<2
