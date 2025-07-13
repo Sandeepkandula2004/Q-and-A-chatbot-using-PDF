@@ -19,7 +19,7 @@ import tempfile
 
 # Load environment variables
 load_dotenv()
-sys.modules["sqlite3"] = pysqlite3
+
 # Persistent directory for ChromaDB
 PERSIST_DIR = os.path.join(tempfile.gettempdir(), "chroma_db")
 os.makedirs(PERSIST_DIR, exist_ok=True)
