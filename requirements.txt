@@ -13,3 +13,4 @@ PyPDF2
 tqdm
 pydantic<2
 pysqlite3-binary  
+pypdf
